@@ -1,12 +1,79 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
 
-/* 
+h1 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 150px;
+    color: pink;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+ul{
+    padding: 0;
+    margin-bottom: 0;
+}
 
-*/
+ul li{
+    border: 1px solid rgb(230, 229, 229);
+    list-style: none;
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input{
+    border: none;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size:x-large;
+}
+
+.fa-solid{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size:x-large;
+    
+}
+
+.inputSize:hover .fa-solid {
+    color: red;
+    cursor: pointer;
+}
+
+.inputSize{
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size:x-large;
+}
+
+.footer {
+    color: rgb(159, 159, 159);
+    border: 1px solid rgb(230, 229, 229);
+    border-top: none;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size:medium;
+}
+
+.shadow{
+    box-shadow: 2px 2px 5px grey;
+    width: 50vw;
+    max-width: 1000px;
+    min-width: 500px; 
+}
