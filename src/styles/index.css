@@ -77,3 +77,15 @@ input{
     max-width: 1000px;
     min-width: 500px; 
 }
+
+.button{
+    margin: 30px auto 0;
+    display: block;
+    padding: 10px 20px; 
+    font-size: large;
+    cursor: pointer;
+    color: grey;
+    background-color: pink;
+    border: none;
+    border-radius: 10px;
+}

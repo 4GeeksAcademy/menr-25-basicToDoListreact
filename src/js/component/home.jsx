@@ -10,7 +10,7 @@ const Home = () => {
 	return (
 		<div>
 
-			<h1>todos</h1>
+			<h1>to-do's</h1>
 			<div className="shadow">
 				<ul>
 					<li>
@@ -37,6 +37,8 @@ const Home = () => {
 
 				<div className="footer">{todos.length} item left</div>
 			</div>
+
+			<button className="button" onClick={() => setTodos([])}>Delete all to-do's</button>
 		</div>
 	);
 };
